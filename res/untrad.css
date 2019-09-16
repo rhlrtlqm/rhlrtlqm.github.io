@@ -1,0 +1,68 @@
+body
+{
+    text-align: center;
+    background-color: lightgray;
+}
+
+#downarea a
+{
+    display: block;
+}
+
+.down-result
+{
+    display: none;
+}
+
+#down-buttons
+{
+    display: none;
+}
+
+#imagearea
+{
+    border: 11px solid #2e1800;
+    padding: 5px 0;
+}
+
+#imagearea>a
+{
+    display: block;
+    margin: -5px 0;
+    border: 7px solid green;
+}
+
+#downarea
+{
+    border: 8px solid #f3e5ab;
+}
+
+#filearea
+{
+    display: inline-block;
+    width: 67vw;
+    margin: 0 3vw;
+    box-sizing: border-box;
+    border: 10px solid turquoise;
+    background-color: mintcream;
+}
+
+#warning
+{
+    color: firebrick;
+    font-size: small;
+}
+
+#dropzone
+{
+    min-height: 40vw;
+    box-sizing: border-box;
+    border: 20px solid mediumspringgreen;
+    background-color: white;
+}
+
+.img-preview
+{
+    background-image: url('trans.png');
+    background-repeat: repeat;
+}

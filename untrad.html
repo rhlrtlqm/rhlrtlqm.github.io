@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>역전통</title>
+    <link rel="shortcut icon" href="res/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="res/untrad.css">
+    <script src = "res/jquery-3.4.1.min.js"></script>
+    <script src = "res/jszip.min.js"></script>
+    <script src = "res/FileSaver.min.js"></script>
+    <script src = "res/untrad.js"></script>
+</head>
+<body>
+    <div id="filearea">
+        <div id="dropzone">
+            <h1>
+                여기에 압축 해제할 파일을 드래그&드롭
+            </h1>
+            <div id="console">
+            </div>
+            <div class="down-result">
+                밑쪽에서 다운받을 파일을 누르면 다운됨<br>
+                일괄다운 버튼으로 모든 파일을 한번에 받을 수 있음<br>
+                <span id="warning">
+                    ※일괄다운 시 디렉토리 구조는 보존되지 않아용
+                </span>
+            </div>
+            <br>
+            <div id="down-buttons">
+                <button id="down-all">일괄다운</button>
+                <button id="down-img">이미지만 일괄다운</button>
+            </div>
+            <div id="resultarea" class="down-result">
+                이미지 목록
+                <div id="imagearea"></div>
+                모든 파일 목록
+                <div id="downarea"></div>
+            </div>
+        </div>
+        <form>
+            혹은 탐색기에서 찾기: <input type="file" id="fileform">
+        </form>
+    </div>
+</body>
