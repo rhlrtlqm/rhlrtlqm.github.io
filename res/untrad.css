@@ -63,6 +63,7 @@ body
 
 .img-preview
 {
+    max-width: 100%;
     background-image: url('trans.png');
     background-repeat: repeat;
 }
